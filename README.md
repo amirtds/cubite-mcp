@@ -1,10 +1,17 @@
-# Cubite LMS MCP server
+# Cubite LMS: learning management system with a built-in MCP server
 
-Cubite (https://cubite.io) is a multi-tenant learning management system. It ships its own hosted
-MCP server so an AI assistant can administer your learning site directly: 137 tools covering
-courses and content, learners and enrollments, certificates, grading, discussions, reports,
-learning paths, site settings and marketing pages. Included with every site ($290/mo or
-$2,900/yr, unlimited learners and courses).
+![Cubite LMS: learning management system with a built-in MCP server](assets/social-preview.png)
+
+Cubite LMS (https://cubite.io) is a hosted learning management system for course sellers,
+training teams and universities: native SCORM and xAPI with a built-in LRS, quizzes and graded
+assignments, certificates, cohorts, learning paths, discussions, Stripe and SureCart checkout, and
+white-label sites on your own domain. Flat $290/month or $2,900/year with unlimited learners and
+courses. It is a hosted alternative for teams moving off LearnDash, Moodle, Thinkific or TalentLMS.
+
+Every Cubite site includes a hosted MCP server, so Claude, ChatGPT, Gemini CLI, Cursor or any MCP
+client can run the LMS for you: 137 tools to build courses, upload SCORM and xAPI packages, enroll
+learners or whole cohorts, issue certificates, grade, moderate discussions and pull reports. You
+sign in through the browser (OAuth 2.1); there is no API key to copy.
 
 This repository holds the public connection files. The server itself is hosted by Cubite; its
 source is not published here.
@@ -23,7 +30,8 @@ source is not published here.
 | Claude (web, desktop, Claude Code) | https://cubite.io/mcp/claude | OAuth sign-in. One-click: [Add to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Cubite&connectorUrl=https%3A%2F%2Fcubite.io%2Fapi%2Fmcp%2Fmcp) |
 | ChatGPT (developer mode) | https://cubite.io/mcp/chatgpt | OAuth sign-in |
 | Gemini CLI | https://cubite.io/mcp/gemini | This repo is a Gemini CLI extension (see below) |
-| Cursor, Windsurf, other HTTP clients | https://cubite.io/mcp/cursor | Scoped API key |
+| Cursor | https://cubite.io/mcp/cursor | OAuth sign-in. One-click: [Install in Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=cubite&config=eyJ1cmwiOiJodHRwczovL2N1Yml0ZS5pby9hcGkvbWNwL21jcCJ9), or a scoped API key |
+| Windsurf and other HTTP clients | https://cubite.io/mcp/cursor | Scoped API key |
 
 ### Claude Code
 
