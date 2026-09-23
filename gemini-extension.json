@@ -1,0 +1,12 @@
+{
+  "name": "cubite",
+  "version": "1.0.0",
+  "description": "Run your Cubite LMS from Gemini CLI",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "cubite": {
+      "httpUrl": "https://cubite.io/api/mcp/mcp",
+      "oauth": { "enabled": true }
+    }
+  }
+}
